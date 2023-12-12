@@ -1,0 +1,78 @@
+body {
+    font-family: Candara;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    padding: 100px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+textarea,
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+a:hover {
+    font-size: large;
+}
+
+input[type="submit"] {
+    background-color: #cb50ae;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+}
+
+table {
+    width: 50% !important;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th {
+    color: rgb(240, 226, 226);
+    font-weight: bold;
+}
+
+th,
+td {
+    text-align: center;
+    font-size: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+.navv {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #e35454 0%, #dc965c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
